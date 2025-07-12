@@ -30,7 +30,7 @@
 #include "hal_sysfreq.h"
 
 #ifdef DOOMBUDS
-#include "serial.h"
+#include "buds.h"
 #endif
 
 #ifdef RTOS
