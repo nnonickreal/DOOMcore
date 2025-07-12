@@ -251,5 +251,7 @@ endif
 
 #DOOM
 ifeq ($(DOOMBUDS),1)
-ccflags-y += -Iapps/doom/src/targets/buds
+ccflags-y += \
+	-Iapps/doom/src/targets/buds \
+	-DDOOMBUDS
 endif
