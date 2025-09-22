@@ -66,8 +66,8 @@ int MAIN_ENTRY(void) {
 	hal_gpdma_open();
 	// open RX lines
 	hal_iomux_set_uart0();
-	hal_trace_open(HAL_TRACE_TRANSPORT_UART0);
-	hal_trace_rx_reopen();
+	//hal_trace_open(HAL_TRACE_TRANSPORT_UART0);
+	//hal_trace_rx_reopen();
 	// Initialise audio
 	analog_open();
 	// Enable high performance mode (300mhz)
