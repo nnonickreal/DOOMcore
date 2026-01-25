@@ -31,3 +31,4 @@ bestool write-image out/open_source/open_source.bin --port /dev/ttyACM1
 ```
 Once you've flashed the earbuds, you can use [DOOMBUDS-JS](https://github.com/arin-s/DOOMBUDS-JS)'s standalone package to play DOOM on the earbud through your browser.
 
+https://github.com/user-attachments/assets/bb55a771-02e3-4869-a142-99a35d51b17a
