@@ -50,7 +50,6 @@ typedef struct {
 #define IBRT_UNKNOW                 255
 #define BTIF_HCI_INVALID_HANDLE     0xFFFF
 
-/* Базовые функции */
 static inline ibrt_ctrl_t *app_tws_ibrt_get_bt_ctrl_ctx(void) {
     static ibrt_ctrl_t stub = {
         .nv_role = IBRT_MASTER,
