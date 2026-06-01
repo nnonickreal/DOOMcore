@@ -30,7 +30,8 @@
 #include "hal_sysfreq.h"
 
 #ifdef DOOMBUDS
-#include "buds.h"
+#include "headphones.h"
+#include "hal_key.h"
 #endif
 
 #ifdef RTOS
@@ -49,6 +50,8 @@
 #ifndef FLASH_FILL
 #define FLASH_FILL 1
 #endif
+
+extern void q35_keys_enable(void);
 
 const static unsigned char bytes[FLASH_FILL] = {
     0x1,
@@ -79,6 +82,9 @@ int MAIN_ENTRY(void) {
 
 	// RIP AND TEARRRRR
 #ifdef DOOMBUDS
+	// q35 port
+	q35_keys_enable(); // try beating doom on this!!
+
 	doom_main();
 #endif
 
