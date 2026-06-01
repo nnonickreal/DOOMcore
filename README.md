@@ -23,7 +23,7 @@ first of all, please read my [flashing guide](https://github.com/nnonickreal/ope
 ./build.sh # this will run make and build the firmware. if you have weird build errors try running clean.sh or rm -rf'ing the out folder first
 
 # assuming that your serial port is 0, run the following to program the headphones.
-bestool write-image out/open_source/open_source.bin --port /dev/ttyACM0
+bestool write-image out/oqdoom/oqdoom.bin --port /dev/ttyACM0
 ```
 ## using
 once you've flashed the headphones, you can use arin's [DOOMBUDS-JS](https://github.com/arin-s/DOOMBUDS-JS)'s to play DOOM on the headphones.
