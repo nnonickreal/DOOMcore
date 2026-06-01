@@ -13,17 +13,14 @@ if you are using windows:
 - install Docker Desktop and enable WSL integration in its settings
 - use [this](https://gitlab.com/alelec/wsl-usb-gui) program to connect your headphones to your distro (tick bound and then attach it)
 
+first of all, please read my [flashing guide](https://github.com/nnonickreal/openqore/blob/main/docs/FLASHING.md)!
 
 ```bash
 ./start_dev.sh # this will cause docker to start your working environment; this should take roughly 1-3 minutes depending on your network speed
 
 # once you are inside the container, your console will look akin to "root@ec5410d0a265:/usr/src#"
 
-./build.sh # this will run make and build the fiurmware. if you have weird build errors try running clean.sh or rm -rf'ing the out folder first
-
-# you may need to take the buds out of the case, wait three seconds, then place them back.
-# this wakes them up and the programmer needs to catch this reboot.
-# you'll know it worked when you see the lights on the case flash.
+./build.sh # this will run make and build the firmware. if you have weird build errors try running clean.sh or rm -rf'ing the out folder first
 
 # assuming that your serial port is 0, run the following to program the headphones.
 bestool write-image out/open_source/open_source.bin --port /dev/ttyACM0
