@@ -11,6 +11,7 @@ RUN apt-get update \
     && apt-get install -y \
     bc \
     build-essential \
+    python-is-python3 \
     curl \
     git  \
     libudev-dev \
