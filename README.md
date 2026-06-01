@@ -13,7 +13,9 @@ if you are using windows:
 - install Docker Desktop and enable WSL integration in its settings
 - use [this](https://gitlab.com/alelec/wsl-usb-gui) program to connect your headphones to your distro (tick bound and then attach it)
 
-first of all, please read my [flashing guide](https://github.com/nnonickreal/openqore/blob/main/docs/FLASHING.md)!
+and first of all, please read my [flashing guide](https://github.com/nnonickreal/openqore/blob/main/docs/FLASHING.md) and make a [backup](https://github.com/nnonickreal/openqore/blob/main/docs/READING.md)!
+
+after reading (backuping) the flash, put the flash dump image in the "tools" folder and rename it to "firmware.bin"
 
 ```bash
 ./start_dev.sh # this will cause docker to start your working environment; this should take roughly 1-3 minutes depending on your network speed
