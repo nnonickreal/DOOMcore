@@ -33,3 +33,5 @@ once you've flashed the headphones, you can use arin's [DOOMBUDS-JS](https://git
 will say it again, a lots of thanks to arin's [DOOMBuds](https://github.com/arin-s/DOOMBuds) and [openpinebuds](https://github.com/pine64/OpenPineBuds/graphs/contributors) team! 
 
 DOOMcore is based on these projects. say hi to pine64 on [discord](https://discord.com/invite/pine64) :)
+
+https://github.com/user-attachments/assets/2d50a54a-92f8-48a3-a77a-e1da63a97124
